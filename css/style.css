@@ -1,0 +1,567 @@
+/*
+Author:Mohammed Fahim Shahriar;
+mail id:fahimxerxas@gmial.com;
+phone no:+880-1620470018;
+*/
+
+/*
+========Index========
+1.Global css
+2.Header
+3.Hero section
+4.About us
+5.Practice-area
+6.Lawyers
+7.Publications
+8.FAQ
+9.Contact us
+10.Footer
+*/
+
+/*Global css */
+
+section{
+	padding:50px 0px;
+}
+
+
+.btn{
+  display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 25px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background-color:#e8bf5d;
+    padding: 8px 40px;
+}
+h1{
+    font-size: 36px;
+}
+
+h2{
+	font-size:30px;
+}
+h4{
+font-size: 25px;
+}
+h6{
+    font-size: 15px;
+    color: gray;
+}
+
+
+
+/* Header css */
+
+.navbar-brand {
+	position: relative;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    margin: 25px 0px;
+}
+
+.navbar-brand::after{
+     content: "";
+     width: 10px;
+     height: 10px;
+     border-radius: 100%;
+     background-color:#e8bf5d;
+     position: absolute;
+     bottom: 18px;
+     right: -12px; 
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:black;
+    cursor:pointer;
+    border-bottom:2px solid #e8bf5d;
+}
+
+
+/*Hero section*/
+
+.hero{
+      background:url(../img/hero.png);
+      background-size: cover;
+
+}
+.hero-content{
+    padding-top:375px;
+    padding-bottom: 50px;
+}
+.hero-text{
+    
+   border-left: 2px solid #e8bf5d;
+   padding-left: 10px;
+
+
+}
+.hero-text h1{
+    color: #ffffff;
+    line-height: 24px;
+    letter-spacing: 6px;
+}
+.hero-text h5{
+    color: #ffffff;
+}
+.btn:hover{
+    background-color: #2e281b;
+    color: #e8bf5d;
+    cursor: pointer;
+}
+
+/*About us section*/
+
+
+.about-content{
+    background:url(../img/01.png) no-repeat;
+    background-size: 165px 113px;
+}
+.about-us-text{
+    margin-top: 30px;
+    margin-left: 10px;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 17px;
+}
+.about-us-text p{
+    width: 50%;
+    padding-top: 0px;
+}
+.history-expertise-content{
+    padding: 50px 0px;
+}
+.history-text{
+    padding-top: 30px;
+}
+.expertise-text p{
+    padding-top: 45px;
+
+}
+.history-text h2,p{
+    padding-top: 15px;
+}
+
+/*practice area section*/
+.practice-area{
+     background-color: #111111;
+    color: white;
+}
+
+.practice-area-content{
+    background:url(../img/02.png) no-repeat;
+    background-size: 100px 87px;
+    background-color: #111111;
+    color:gray;
+}
+.practice-area-text{
+    margin-top: 30px;
+    margin-left: -7px;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 9px;
+}
+.practice-area-text p{
+    width: 50%;
+    padding-top: 0px;
+}
+.practice-area-service{
+    padding: 70px 0px;
+    padding-left: 49px;
+    text-align: justify;
+}
+/* Atorny section*/
+.atorny-content{
+    background:url(../img/03.png) no-repeat;
+    background-size: 100px 87px;
+}
+.atorny-text{
+    margin-top: 30px;
+    margin-left: -8px;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 10px;
+}
+.atorny-text p{
+    width: 50%;
+    padding-top: 0px;
+}
+.atorny-img{
+    padding-top: 40px;
+}
+.atorny-img h4{
+   padding-top: 25px;
+}
+.atorny-img h6{
+line-height: 4px;
+}
+/*client say section*/
+.client{
+    background:url(../img/banner.png);
+    background-size: cover;
+    color: gray;
+}
+.client-content{
+    background:url(../img/04.png) no-repeat;
+    background-size: 100px 87px;
+}
+.client-text{
+    margin-top: 30px;
+    margin-left: -8px;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 10px;
+}
+.client-text p{
+    width: 50%;
+    padding-top: 0px;
+}
+.client-details{
+    padding-top: 65px;
+}
+.client-img{
+box-shadow: 22px 22px 1px #e8bf5d;
+
+}
+.client-say{
+    text-align: justify;
+    position: relative;
+}
+.client-say::before{
+    content: '\f10d';
+    font-family: FontAwesome;
+    position: absolute;
+    top: -25px;
+    left: -40px;
+    font-size: 50px;
+}
+.pagination{
+    padding-top: 50px;
+}
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
+.carousel {
+    position: relative;
+    padding-bottom: 10%;
+   
+}
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-right: 3px;
+    margin-left: 3px;
+    top: -20px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #ffff;
+}
+/*Recent publication*/
+.publication-content{
+    background:url(../img/05.png) no-repeat;
+    background-size: 115px 108px;
+}
+
+.publication-text{
+    margin-top: 30px;
+    margin-left: -8px;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 10px;
+}
+.publication-text p{
+    width: 50%;
+    padding-top: 0px;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-bottom: 2px solid #e8bf5d;
+    text-align: justify;
+}
+.card-content{
+    padding-top: 30px;
+}
+
+.card-title {
+    margin-bottom: -1.25rem;
+}
+
+.card-text p i{
+    margin-left: 50px;
+}
+.icon-s{
+    padding-left:108px;
+}
+.icon-c p{
+    margin-top: -39px;
+    margin-left: 23px;
+}
+.icon-s p{
+    margin-top: -42px;
+    margin-left: 23px;
+
+}
+
+/* FAQ section*/
+.faq{
+    background-color:black;
+}
+.faq-content{
+    background:url(../img/06.png) no-repeat;
+    background-size: 100px 87px;
+}
+.faq-text{
+    margin-top: 30px;
+    margin-left: -8px;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 10px;
+}
+.faq-text p{
+    width: 50%;
+    padding-top: 0px;
+}
+.faq-details{
+    padding-top:55px;
+    padding-bottom: 70px;
+}
+.faq-left{
+    color: white;
+    border-bottom-color: #e8bf5d;
+    border-bottom-width: 60%;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2;
+    border-top: 2px solid #e8bf5d;
+}
+.faq-right p{
+    background-color: #e8bf5d;
+    padding: 40px 35px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 35px #e8bf5d;
+}
+
+/*contact section*/
+.contact-content{
+    background:url(../img/07.png) no-repeat;
+    background-size: 100px 87px;
+}
+.contact-text{
+    margin-top: 30px;
+    margin-left: -8px;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 10px;
+}
+.contact-text p{
+    width: 50%;
+    padding-top: 0px;
+}
+.custom-area{
+    height: 95px !important;
+}
+.contact-grp{
+    margin-top: 65px;
+    margin-bottom: 75px;
+    box-shadow: 0px 0px 40px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #b9b9b9;
+    background-color: #fff;
+    background-clip: padding-box;
+    border:none;
+    border-bottom: 1px solid #b9b9b9;
+    border-radius:0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:focus {
+    border-color: #b9b9b9;
+    background-color: #fff;
+    border-color:none;
+    outline: 0;
+    box-shadow:none;
+}
+.btn-msg{
+  display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 25px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background-color:#e8bf5d;
+    padding: 8px 40px;
+}
+.google-map{
+    margin-left: 20%;
+    box-shadow: -30px 25px 0px #e8bf5d;
+}
+.contact-frm{
+    margin: 70px 0px;
+}
+/*footer section*/
+.footer{
+    background-color: #111111;
+}
+.footer-content{
+    padding: 30px 0px;
+}
+.footer-icon{
+    padding-left: 20%;
+}
+.footer-icon ul li{
+    display: inline;
+    list-style: none;
+    color: white;
+    margin: 10px;
+    text-align: right; 
+
+}
+
+/*====Mobile responsive====*/
+@media (min-width: 320px) and (max-width:520px){
+
+
+    .hero {
+    background: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 67%;
+}
+    
+.hero-content {
+    margin-left: 0%;
+    margin-top: -252px;
+     padding-top: 375px;
+    padding-bottom: 40px;
+}
+
+.hero-text h1 {
+    line-height: 15px;
+    letter-spacing: 0px;
+    font-size: 25px;
+}
+.hero-text h5 {
+   font-size: 20px;
+}
+.btn {
+    padding: 5px 15px;
+    margin-left: 60%;
+    margin-top: -100px;
+}
+.about-us-text {  
+    margin-left: 0px;   
+}
+
+.about-content {
+    margin-top: -160px;
+}
+.history-expertise-content {
+    padding: 0px 0px;
+}
+.history-text {
+    padding-top: 0px;
+}
+.history-text h2, p {
+    padding-top: 0px;
+}
+.expertise-text p {
+    padding-top: 10px;
+}
+.atorny-text {
+    margin-left: 0px;
+    
+}
+.img-fluid {
+    display: block;
+    margin: 0 auto;
+}
+.atorny-img {
+    padding-top: 0px;
+    text-align: center;
+}
+.atorny-img h4 {
+    padding-top: 10px;
+}
+.atorny-img h6 {
+    padding-bottom: 10px;
+}
+.client-text {
+    margin-top: -30px;
+    margin-left: -5px;
+    border-left: 2px solid #e8bf5d;
+    padding-left: 5px;
+}
+.client-say::before {
+    top: 23px;
+    left: 2px;
+    font-size: 28px;
+}
+.history-text h2, p {
+    padding-top: 60px;
+ }
+ .icon-s {
+    padding-left: 42px;
+}
+.icon-c p {
+    margin-top: -39px;
+    margin-left: 41px;
+}
+.fa-comments:before {
+    margin-left: 22px;
+}
+.history-text h2, p {
+    padding-top: 16px;
+}
+.card-text p i {
+    margin-left: 0px;
+}
+.btn-msg {
+    padding: 5px 15px;
+    margin-left: 29%;
+    margin-top: 24px;
+}
+
+} 
